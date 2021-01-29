@@ -1,0 +1,8 @@
+prefix=/home/ruiyang/catkin_ws/install
+
+Name: path_generator
+Description: Description of path_generator
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

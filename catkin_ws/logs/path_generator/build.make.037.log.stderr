@@ -1,0 +1,10 @@
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:9:28:[m[K [01;31m[Kerror: [m[Karray size missing in ‘[01m[Karr[m[K’
+    9 | geometry_msgs::PoseStamped [01;31m[Karr[m[K[];
+      |                            [01;31m[K^~~[m[K
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:[m[K In function ‘[01m[Kvoid pathCallback(const Path&)[m[K’:
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:15:6:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K][m[K’ token
+   15 |  arr[[01;31m[K][m[K = msg.poses;
+      |      [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/path_generator_node.dir/build.make:63: CMakeFiles/path_generator_node.dir/src/sim_path.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/path_generator_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

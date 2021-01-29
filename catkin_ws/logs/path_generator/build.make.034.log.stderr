@@ -1,0 +1,14 @@
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:[m[K In function ‘[01m[Kvoid pathCallback(const Path&)[m[K’:
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:15:15:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >[m[K’} and ‘[01m[Kconst _poses_type[m[K’ {aka ‘[01m[Kconst std::vector<geometry_msgs::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’})
+   15 |  arr[5] = msg.[01;31m[Kposes[m[K;
+      |               [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/geometry_msgs/PoseStamped.h:24:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >& geometry_msgs::PoseStamped_<std::allocator<void> >::operator=(const geometry_msgs::PoseStamped_<std::allocator<void> >&)[m[K’
+   24 | struct [01;36m[KPoseStamped_[m[K
+      |        [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/geometry_msgs/PoseStamped.h:24:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst _poses_type[m[K’ {aka ‘[01m[Kconst std::vector<geometry_msgs::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’} to ‘[01m[Kconst geometry_msgs::PoseStamped_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/noetic/include/geometry_msgs/PoseStamped.h:24:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >& geometry_msgs::PoseStamped_<std::allocator<void> >::operator=(geometry_msgs::PoseStamped_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/noetic/include/geometry_msgs/PoseStamped.h:24:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst _poses_type[m[K’ {aka ‘[01m[Kconst std::vector<geometry_msgs::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::PoseStamped_<std::allocator<void> > > >[m[K’} to ‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >&&[m[K’
+make[2]: *** [CMakeFiles/path_generator_node.dir/build.make:63: CMakeFiles/path_generator_node.dir/src/sim_path.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/path_generator_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/ruiyang/catkin_ws/src/controller/src/sim_controller.cpp:[m[K In function ‘[01m[Kvoid pathCallback(const Pose&)[m[K’:
+[01m[K/home/ruiyang/catkin_ws/src/controller/src/sim_controller.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kp_tar[m[K’ was not declared in this scope
+   41 |     [01;31m[Kp_tar[m[K = msg.Point
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/ruiyang/catkin_ws/src/controller/src/sim_controller.cpp:41:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst Pose[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[KPoint[m[K’
+   41 |     p_tar = msg.[01;31m[KPoint[m[K
+      |                 [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/controller_node.dir/build.make:63: CMakeFiles/controller_node.dir/src/sim_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:746: CMakeFiles/controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

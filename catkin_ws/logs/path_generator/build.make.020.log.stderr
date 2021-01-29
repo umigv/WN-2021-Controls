@@ -1,0 +1,22 @@
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:8:28:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+    8 | geometry_msgs::PoseStamped [01;35m[K[[m[K] arr = {};
+      |                            [01;35m[K^[m[K
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:8:28:[m[K [01;31m[Kerror: [m[Kstructured binding declaration cannot have type ‘[01m[Kgeometry_msgs::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >[m[K’}
+    8 | geometry_msgs::PoseStamped [01;31m[K[][m[K arr = {};
+      |                            [01;31m[K^~[m[K
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:8:28:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:8:28:[m[K [01;31m[Kerror: [m[Kempty structured binding declaration
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:8:31:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Karr[m[K’
+    8 | geometry_msgs::PoseStamped [] [01;31m[Karr[m[K = {};
+      |                               [01;31m[K^~~[m[K
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:[m[K In function ‘[01m[Kvoid pathCallback(const Path&)[m[K’:
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:14:2:[m[K [01;31m[Kerror: [m[K‘[01m[Karr[m[K’ was not declared in this scope
+   14 |  [01;31m[Karr[m[K = msg.poses;
+      |  [01;31m[K^~~[m[K
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:34:7:[m[K [01;31m[Kerror: [m[K‘[01m[Karr[m[K’ was not declared in this scope
+   34 |   p = [01;31m[Karr[m[K[i];
+      |       [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/path_generator_node.dir/build.make:63: CMakeFiles/path_generator_node.dir/src/sim_path.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/path_generator_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

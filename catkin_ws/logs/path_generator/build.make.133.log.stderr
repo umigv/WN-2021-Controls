@@ -1,0 +1,24 @@
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:[m[K In function ‘[01m[Kvoid pathCallback(const Path&)[m[K’:
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::vector<geometry_msgs::PoseStamped_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kpushback[m[K’; did you mean ‘[01m[Kpush_back[m[K’?
+   20 |   vec.[01;31m[Kpushback[m[K(msg.poses[0]);
+      |       [01;31m[K^~~~~~~~[m[K
+      |       [32m[Kpush_back[m[K
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:21:2:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO_STRAM[m[K’ was not declared in this scope; did you mean ‘[01m[KROS_INFO_STREAM[m[K’?
+   21 |  [01;31m[KROS_INFO_STRAM[m[K(size);
+      |  [01;31m[K^~~~~~~~~~~~~~[m[K
+      |  [32m[KROS_INFO_STREAM[m[K
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:24:47:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   24 | void poseCallback(const turtlesim::Pose& msg) [01;31m[K{[m[K
+      |                                               [01;31m[K^[m[K
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:29:32:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   29 | int main(int argc, char** argv)[01;31m[K{[m[K
+      |                                [01;31m[K^[m[K
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:60:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   60 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:17:46:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   17 | void pathCallback(const nav_msgs::Path& msg) [01;36m[K{[m[K
+      |                                              [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/path_generator_node.dir/build.make:63: CMakeFiles/path_generator_node.dir/src/sim_path.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/path_generator_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

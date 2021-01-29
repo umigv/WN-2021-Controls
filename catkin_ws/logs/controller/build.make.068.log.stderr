@@ -1,0 +1,10 @@
+[01m[K/home/ruiyang/catkin_ws/src/controller/src/sim_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ruiyang/catkin_ws/src/controller/src/sim_controller.cpp:66:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::Point[m[K’ {aka ‘[01m[Kstruct geometry_msgs::Point_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktheta[m[K’
+   66 |     p.[01;31m[Ktheta[m[K = p_theta;
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/ruiyang/catkin_ws/src/controller/src/sim_controller.cpp:88:6:[m[K [01;31m[Kerror: [m[Kno pre-increment operator for type
+   88 |    ++[01;31m[Kindex[m[K;
+      |      [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/controller_node.dir/build.make:63: CMakeFiles/controller_node.dir/src/sim_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:746: CMakeFiles/controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

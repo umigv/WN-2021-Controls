@@ -1,0 +1,6 @@
+devel_space: /home/ruiyang/catkin_ws/devel
+install: false
+install_space: /home/ruiyang/catkin_ws/install
+profile: default
+source_space: /home/ruiyang/catkin_ws/src
+workspace: /home/ruiyang/catkin_ws

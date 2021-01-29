@@ -1,0 +1,9 @@
+[01m[K/home/ruiyang/catkin_ws/src/controller/src/sim_controller.cpp:77:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+   77 |  [01;31m[Kreturn[m[K 0;
+      |  [01;31m[K^~~~~~[m[K
+[01m[K/home/ruiyang/catkin_ws/src/controller/src/sim_controller.cpp:79:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   79 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/controller_node.dir/build.make:63: CMakeFiles/controller_node.dir/src/sim_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:746: CMakeFiles/controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

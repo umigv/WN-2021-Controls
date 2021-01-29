@@ -1,0 +1,13 @@
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:[m[K In function ‘[01m[Kvoid pathCallback(const Path&)[m[K’:
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:17:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfor[m[K’
+   17 |  size = sizeof(msg.poses)/sizeof(msg.poses)
+      |                                            [01;31m[K^[m[K
+      |                                            [32m[K;[m[K
+   18 |  [32m[Kfor[m[K(int i = 0; i <= size; i++) {
+      |  [32m[K~~~[m[K                                        
+[01m[K/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   18 |  for(int i = 0; [01;31m[Ki[m[K <= size; i++) {
+      |                 [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/path_generator_node.dir/build.make:63: CMakeFiles/path_generator_node.dir/src/sim_path.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/path_generator_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

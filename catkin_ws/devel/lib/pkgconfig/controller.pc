@@ -1,0 +1,1 @@
+/home/ruiyang/catkin_ws/devel/.private/controller/lib/pkgconfig/controller.pc

@@ -1,0 +1,13 @@
+[01m[K/home/ruiyang/catkin_ws/src/controller/src/sim_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ruiyang/catkin_ws/src/controller/src/sim_controller.cpp:81:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::Rate::sleep(double)[m[K’
+   81 |      loop_rate.sleep(1.[01;31m[K)[m[K;
+      |                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:39[m[K,
+                 from [01m[K/home/ruiyang/catkin_ws/src/controller/src/sim_controller.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/rate.h:65:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool ros::Rate::sleep()[m[K’
+   65 |   bool [01;36m[Ksleep[m[K();
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/rate.h:65:8:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+make[2]: *** [CMakeFiles/controller_node.dir/build.make:63: CMakeFiles/controller_node.dir/src/sim_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:746: CMakeFiles/controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
