@@ -7,6 +7,7 @@ In the first terminal, run `roscore`
 
 ## Step 2: Start the turtlesim
 In a separate terminal, run `rosrun turtlesim turtlesim_node`. After this has been run successfully, you will see a window with yout turtle robot at the center of the scene.
+
 ![Alt text](/Turtle.png?raw=true "Optional Title")
 
 ## Step 3: Start the path_generator
