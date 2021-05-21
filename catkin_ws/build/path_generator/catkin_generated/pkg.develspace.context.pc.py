@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "path_generator"
-PROJECT_SPACE_DIR = "/home/ruiyang/catkin_ws/devel/.private/path_generator"
+PROJECT_SPACE_DIR = "/home/ruiyang/WN-2021-Controls/catkin_ws/devel/.private/path_generator"
 PROJECT_VERSION = "0.0.1"

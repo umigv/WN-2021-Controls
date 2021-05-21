@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ruiyang/catkin_ws/src/controller/src/sim_controller.cpp" "/home/ruiyang/catkin_ws/build/controller/CMakeFiles/controller_node.dir/src/sim_controller.cpp.o"
+  "/home/ruiyang/WN-2021-Controls/catkin_ws/src/controller/src/sim_controller.cpp" "/home/ruiyang/WN-2021-Controls/catkin_ws/build/controller/CMakeFiles/controller_node.dir/src/sim_controller.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ruiyang/catkin_ws/src/controller/include"
+  "/home/ruiyang/WN-2021-Controls/catkin_ws/src/controller/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

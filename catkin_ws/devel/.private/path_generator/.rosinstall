@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/ruiyang/catkin_ws/devel/.private/path_generator/setup.sh
+    local-name: /home/ruiyang/WN-2021-Controls/catkin_ws/devel/.private/path_generator/setup.sh

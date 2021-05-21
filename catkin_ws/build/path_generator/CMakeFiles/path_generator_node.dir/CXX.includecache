@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ruiyang/catkin_ws/src/path_generator/src/sim_path.cpp
+/home/ruiyang/WN-2021-Controls/catkin_ws/src/path_generator/src/sim_path.cpp
 ros/ros.h
 -
 stdlib.h

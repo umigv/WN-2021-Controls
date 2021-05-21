@@ -7,9 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ruiyang/catkin_ws/devel/.private/controller:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/ruiyang/catkin_ws/devel/.private/controller/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/ruiyang/catkin_ws/devel/.private/controller/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/ruiyang/catkin_ws/build/controller'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ruiyang/catkin_ws/devel/.private/controller/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ruiyang/catkin_ws/src/controller:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/ruiyang/WN-2021-Controls/catkin_ws/devel/.private/controller:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/ruiyang/WN-2021-Controls/catkin_ws/devel/.private/controller/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/ruiyang/WN-2021-Controls/catkin_ws/devel/.private/controller/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/ruiyang/WN-2021-Controls/catkin_ws/build/controller'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/ruiyang/WN-2021-Controls/catkin_ws/devel/.private/controller/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/ruiyang/catkin_ws/src/controller:/home/ruiyang/WN-2021-Controls/catkin_ws/src/controller:$ROS_PACKAGE_PATH"

@@ -1,4 +1,4 @@
-prefix=/home/ruiyang/catkin_ws/install
+prefix=/home/ruiyang/WN-2021-Controls/catkin_ws/install
 
 Name: controller
 Description: Description of controller

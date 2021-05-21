@@ -1,0 +1,17 @@
+Symlinking /home/ruiyang/WN-2021-Controls/catkin_ws/devel/lib/pkgconfig/path_generator.pc
+Could not create symlink `/home/ruiyang/WN-2021-Controls/catkin_ws/devel/lib/pkgconfig/path_generator.pc` referencing `/home/ruiyang/WN-2021-Controls/catkin_ws/devel/.private/path_generator/lib/pkgconfig/path_generator.pc`
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/catkin_tools/execution/stages.py", line 168, in function_proxy
+    return function(logger, event_queue, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/catkin_tools/jobs/catkin.py", line 309, in link_devel_products
+    os.symlink(source_file, dest_file)
+FileExistsError: [Errno 17] File exists: '/home/ruiyang/WN-2021-Controls/catkin_ws/devel/.private/path_generator/lib/pkgconfig/path_generator.pc' -> '/home/ruiyang/WN-2021-Controls/catkin_ws/devel/lib/pkgconfig/path_generator.pc'
+
+Stage `symlink` failed with arguments:
+  package: {'package_format': 2, 'name': 'path_generator', 'version': '0.0.1', 'version_compatibility': None, 'description': 'The path_generator package', 'maintainers': [<catkin_pkg.package.Person object at 0xffff7f6214f0>], 'licenses': ['TODO'], 'urls': [], 'authors': [], 'build_depends': [Dependency(name='roscpp', evaluated_condition=True)], 'buildtool_depends': [Dependency(name='catkin', evaluated_condition=True)], 'build_export_depends': [Dependency(name='roscpp', evaluated_condition=True)], 'buildtool_export_depends': [], 'exec_depends': [Dependency(name='roscpp', evaluated_condition=True)], 'test_depends': [], 'doc_depends': [], 'conflicts': [], 'replaces': [], 'group_depends': [], 'member_of_groups': [], 'exports': [], 'filename': '/home/ruiyang/WN-2021-Controls/catkin_ws/src/path_generator/package.xml'}
+  package_path: path_generator
+  devel_manifest_path: /home/ruiyang/WN-2021-Controls/catkin_ws/.catkin_tools/profiles/default/packages/path_generator
+  source_devel_path: /home/ruiyang/WN-2021-Controls/catkin_ws/devel/.private/path_generator
+  dest_devel_path: /home/ruiyang/WN-2021-Controls/catkin_ws/devel
+  metadata_path: /home/ruiyang/WN-2021-Controls/catkin_ws/.catkin_tools/profiles/default
+  prebuild: False

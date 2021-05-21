@@ -1,4 +1,4 @@
-prefix=/home/ruiyang/catkin_ws/devel/.private/path_generator
+prefix=/home/ruiyang/WN-2021-Controls/catkin_ws/devel/.private/path_generator
 
 Name: path_generator
 Description: Description of path_generator

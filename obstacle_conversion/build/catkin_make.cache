@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/ruiyang/obstacle_conversion/devel -DCMAKE_INSTALL_PREFIX=/home/ruiyang/obstacle_conversion/install -G Unix Makefiles
